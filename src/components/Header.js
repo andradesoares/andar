@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import * as styles from "./Header-Style";
 import LogoInstagram from "../../public/instagram.svg";
 import LogoPinterest from "../../public/pinterest.svg";
@@ -14,16 +15,16 @@ const Header = () => {
       <styles.Navigation>
         <styles.Links>
           <styles.Link>
-            <a href="#">Início</a>
+            <Link href="/">Início</Link>
           </styles.Link>
           <styles.Link>
-            <a href="/servicos-e-precos">Serviços e Preços</a>
+            <Link href="/servicos-e-precos">Serviços e Preços</Link>
           </styles.Link>
           <styles.Link>
-            <a href="/sobre">Sobre</a>
+            <Link href="/sobre">Sobre</Link>
           </styles.Link>
           <styles.Link>
-            <a href="/contato">Contato</a>
+            <Link href="/contato">Contato</Link>
           </styles.Link>
           <div>
             <a href="#">
