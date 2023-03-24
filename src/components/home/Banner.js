@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
 import * as styles from "./Banner-Style";
-import Default from "../../../public/default.png";
 
 const Banner = () => {
   return (

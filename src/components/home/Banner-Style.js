@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import Default from "../../../public/default.png";
+import Default from "../../../public/default.jpg";
 
-export const Container = styled.div`
+export const Container = styled.section`
   background-image: url(${Default.src});
   background-repeat: no-repeat;
   background-size: 100%;

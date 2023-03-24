@@ -2,6 +2,8 @@ import Image from "next/image";
 import React from "react";
 import * as styles from "./Infos-Style";
 import foto from "../../../public/foto.jpg";
+import Services from "./Services";
+
 const Infos = () => {
   return (
     <styles.Container>
@@ -23,14 +25,6 @@ const Infos = () => {
           </styles.Btn>
         </div>
       </styles.Box>
-      <div className="text">
-        {" "}
-        <h3>Lorem ipsum dolor sit</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
-          Vestibulum metus est, semper sed turpis ut, fringilla tincidunt risus.
-        </p>
-      </div>
     </styles.Container>
   );
 };

@@ -8,13 +8,13 @@ const Header = () => {
   return (
     <styles.Container>
       <div>
-        <p>Marina Braga</p>
-        <p>Assitente Virtual</p>
+        <p>Andar</p>
+        <p>Consultoria de Imagem</p>
       </div>
       <styles.Navigation>
         <styles.Links>
           <styles.Link>
-            <a href="#">Ínicio</a>
+            <a href="#">Início</a>
           </styles.Link>
           <styles.Link>
             <a href="#">Serviços e Preços</a>

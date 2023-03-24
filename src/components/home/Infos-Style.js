@@ -1,30 +1,15 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const Container = styled.section`
   background: #ffffff;
   background-repeat: no-repeat;
   background-size: 100%;
   position: relative;
-  .text {
-    padding: 1%;
-    display: inline-block;
-    width: 100%;
-    h3 {
-      font-size: 2.6vw;
-      line-height: 60px;
-      margin: 0 0 30px 0;
-      text-align: center;
-    }
-    p {
-      line-height: 25px;
-      margin: 0;
-      text-align: center;
-    }
-  }
+  height: 25vw;
 `;
 
 export const Box = styled.div`
-  position: relative;
+  position: absolute;
   background: #ffffff;
   top: -150px;
   left: 50%;
@@ -35,8 +20,8 @@ export const Box = styled.div`
   display: flex;
   justify-content: space-between;
   img {
-    height: 360px;
-    width: 310px;
+    height: 19vw;
+    width: 16vw;
   }
   div {
     width: 50%;
