@@ -17,13 +17,13 @@ const Header = () => {
             <a href="#">Início</a>
           </styles.Link>
           <styles.Link>
-            <a href="#">Serviços e Preços</a>
+            <a href="/servicos-e-precos">Serviços e Preços</a>
           </styles.Link>
           <styles.Link>
-            <a href="#">Sobre</a>
+            <a href="/sobre">Sobre</a>
           </styles.Link>
           <styles.Link>
-            <a href="#">Contato</a>
+            <a href="/contato">Contato</a>
           </styles.Link>
           <div>
             <a href="#">
