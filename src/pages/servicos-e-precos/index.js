@@ -4,7 +4,7 @@ import Header from "@/components/Header";
 import Banner from "@/components/home/Banner";
 import Infos from "@/components/home/Infos";
 import Services from "@/components/home/Services";
-import Depo from "@/components/home/Depo";
+import Depo from "@/components/servicos/Depo";
 import Contact from "@/components/home/Contact";
 import Footer from "@/components/Footer";
 import Title from "@/components/Title";
@@ -22,6 +22,8 @@ export default function Home() {
         <div>
           <Header />
           <Title title="Serviços e Preços" />
+          <Depo />
+          <Footer />
         </div>
       </main>
     </>
