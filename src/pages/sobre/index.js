@@ -1,13 +1,10 @@
 import Head from "next/head";
-import Image from "next/image";
 import Header from "@/components/Header";
-import Banner from "@/components/home/Banner";
-import Infos from "@/components/home/Infos";
-import Services from "@/components/home/Services";
-import Depo from "@/components/home/Depo";
-import Contact from "@/components/home/Contact";
-import Footer from "@/components/Footer";
 import Title from "@/components/Title";
+import Sobre from "@/components/sobre/Sobre";
+import Depo from "@/components/sobre/Depo";
+import Contact from "@/components/sobre/Contact";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -22,6 +19,10 @@ export default function Home() {
         <div>
           <Header />
           <Title title="Sobre" />
+          <Sobre />
+          <Depo />
+          <Contact />
+          <Footer />
         </div>
       </main>
     </>
