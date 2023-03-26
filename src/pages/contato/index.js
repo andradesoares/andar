@@ -8,6 +8,8 @@ import Depo from "@/components/home/Depo";
 import Contact from "@/components/home/Contact";
 import Footer from "@/components/Footer";
 import Title from "@/components/Title";
+import Intro from "@/components/contato/Intro";
+import Social from "@/components/contato/Social";
 
 export default function Home() {
   return (
@@ -22,6 +24,9 @@ export default function Home() {
         <div>
           <Header />
           <Title title="Contato" />
+          <Intro />
+          <Social />
+          <Footer />
         </div>
       </main>
     </>

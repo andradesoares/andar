@@ -4,14 +4,27 @@ import Link from "next/link";
 import * as styles from "./Header-Style";
 import LogoInstagram from "../../public/instagram.svg";
 import LogoPinterest from "../../public/pinterest.svg";
+import Andar from "../../public/andar.jpg";
 
 const Header = () => {
   return (
     <styles.Container>
-      <div>
-        <p>Andar</p>
-        <p>Consultoria de Imagem</p>
+      <div className="info">
+        <Link href="/">
+          <Image
+            className="logo"
+            src={Andar}
+            alt="Logo Andar"
+            width={70}
+            height={70}
+          />
+        </Link>
+        <div>
+          <p>Andar</p>
+          <p>Consultoria de Imagem</p>
+        </div>
       </div>
+
       <styles.Navigation>
         <styles.Links>
           <styles.Link>
@@ -27,7 +40,7 @@ const Header = () => {
             <Link href="/contato">Contato</Link>
           </styles.Link>
           <div>
-            <a href="#">
+            <a href="https://www.instagram.com/andar_mais/">
               <Image
                 src={LogoInstagram}
                 alt="Logo Instagram"
@@ -38,7 +51,7 @@ const Header = () => {
             <a href="#">
               <Image
                 src={LogoPinterest}
-                alt="Logo Instagram"
+                alt="Logo Pinterest"
                 width={20}
                 height={20}
               />
