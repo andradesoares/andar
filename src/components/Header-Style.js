@@ -18,6 +18,30 @@ export const Container = styled.div`
       align-items: center;
     }
   }
+  h2 {
+    margin-bottom: 0;
+  }
+  p {
+    margin-top: 10px;
+  }
+  .whatsapp_float {
+    position: fixed;
+    bottom: 20px;
+    display: flex;
+    right: 15px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    color: rgb(41, 47, 69);
+    background-color: rgb(234, 111, 102);
+    border-radius: 20px;
+    z-index: 1;
+    :hover {
+      cursor: pointer;
+    }
+  }
 `;
 
 export const Navigation = styled.nav`

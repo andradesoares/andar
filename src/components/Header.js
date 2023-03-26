@@ -4,6 +4,7 @@ import Link from "next/link";
 import * as styles from "./Header-Style";
 import LogoInstagram from "../../public/instagram.svg";
 import LogoPinterest from "../../public/pinterest.svg";
+import Whatsapp from "../../public/whatsapp.svg";
 import Andar from "../../public/andar.jpg";
 
 const Header = () => {
@@ -20,7 +21,7 @@ const Header = () => {
           />
         </Link>
         <div>
-          <p>Andar</p>
+          <h2>Andar+</h2>
           <p>Consultoria de Imagem</p>
         </div>
       </div>
@@ -48,13 +49,21 @@ const Header = () => {
                 height={20}
               />
             </a>
-            <a href="#">
+            <a href="https://br.pinterest.com/andar_mais/">
               <Image
                 src={LogoPinterest}
                 alt="Logo Pinterest"
                 width={20}
                 height={20}
               />
+            </a>
+            <a
+              href="https://wa.me/2348100000000"
+              className="whatsapp_float"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image src={Whatsapp} alt="Whatsapp" width={40} height={40} />
             </a>
           </div>
         </styles.Links>

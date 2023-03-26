@@ -18,7 +18,7 @@ const Social = () => {
               height={30}
             />
           </a>
-          <a href="#">
+          <a href="https://br.pinterest.com/andar_mais/">
             <Image
               src={LogoPinterest}
               alt="Logo Pinterest"

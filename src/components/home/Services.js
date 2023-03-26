@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import ServiceBox from "./ServiceBox";
 import * as styles from "./Services-Style";
@@ -25,7 +25,9 @@ const Services = () => {
         <ServiceBox />
       </styles.Box>
       <styles.Btn>
-        <button>Ver Serviços</button>
+        <Link href="/servicos-e-precos">
+          <button>Ver Serviços</button>
+        </Link>
       </styles.Btn>
     </styles.Container>
   );

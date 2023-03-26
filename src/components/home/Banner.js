@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import Link from "next/link";
 import * as styles from "./Banner-Style";
 
 const Banner = () => {
@@ -12,9 +13,11 @@ const Banner = () => {
       <styles.SubTitle>
         Lorem ipsum dolor sit amet, consectetur.
       </styles.SubTitle>
-      <styles.Btn>
-        <button>Ver Serviços</button>
-      </styles.Btn>
+      {/* <styles.Btn>
+        <Link href="/sobre">
+          <button>Ver Serviços</button>
+        </Link>
+      </styles.Btn> */}
     </styles.Container>
   );
 };

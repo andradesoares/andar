@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import * as styles from "./Depo-Style";
 import DepoBox from "./DepoBox";
@@ -17,7 +17,9 @@ const Depo = () => {
         <DepoBox />
       </styles.Box>
       <styles.Btn>
-        <button>Entre em Contato</button>
+        <Link href="/contato">
+          <button>Entre em contato</button>
+        </Link>{" "}
       </styles.Btn>
     </styles.Container>
   );

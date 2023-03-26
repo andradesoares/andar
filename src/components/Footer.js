@@ -7,7 +7,8 @@ import LogoPinterest from "../../public/pinterest.svg";
 const Footer = () => {
   return (
     <styles.Container>
-      <div>© 2023 Copywright</div>
+      <div>© Copyright 2023</div>
+      <p>Andar+</p>
       <div>
         <a href="https://www.instagram.com/andar_mais/">
           <Image
@@ -17,7 +18,7 @@ const Footer = () => {
             height={20}
           />
         </a>
-        <a href="#">
+        <a href="https://br.pinterest.com/andar_mais/">
           <Image
             src={LogoPinterest}
             alt="Logo Pinterest"

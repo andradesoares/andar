@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import * as styles from "./Infos-Style";
 import foto from "../../../public/foto.jpg";
@@ -21,7 +22,9 @@ const Infos = () => {
             volutpat.
           </p>
           <styles.Btn>
-            <button>Ver Serviços</button>
+            <Link href="/sobre">
+              <button>Saiba mais</button>
+            </Link>{" "}
           </styles.Btn>
         </div>
       </styles.Box>
