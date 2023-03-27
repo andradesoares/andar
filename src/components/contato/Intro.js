@@ -39,7 +39,12 @@ const Intro = () => {
     };
 
     emailjs
-      .send("service_6l77nqk", "template_dfxakmq", data, "fhltvKGed3FXXZPf9")
+      .send(
+        process.env.SERVICE_ID,
+        process.env.TEMPLATE_ID,
+        data,
+        process.env.USER_ID
+      )
       .then(
         () => {
           setNome("");
