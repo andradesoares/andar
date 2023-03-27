@@ -6,7 +6,7 @@ export const Container = styled.section`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 10vw 0 5vw 0;
+  padding: 200px 0 5vw 0;
   h3 {
     font-size: 2.6vw;
     line-height: 60px;
@@ -16,6 +16,27 @@ export const Container = styled.section`
   img {
     height: 20vw;
     width: 26vw;
+  }
+  @media (max-width: 900px) {
+    h3 {
+      margin-bottom: 5vw;
+    }
+    padding: 5vw 0;
+    img {
+      height: 25vw;
+      width: 32vw;
+    }
+  }
+  @media (max-width: 632px) {
+    h3 {
+      font-size: 20px;
+      line-height: 26px;
+      margin: 0 0 30px 0;
+    }
+    img {
+      height: 40vw;
+      width: 55vw;
+    }
   }
 `;
 

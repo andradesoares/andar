@@ -17,6 +17,27 @@ export const Container = styled.section`
     height: 14vw;
     width: 14vw;
   }
+  @media (max-width: 900px) {
+    h3 {
+      margin-bottom: 5vw;
+    }
+    padding: 5vw 0;
+    img {
+      height: 25vw;
+      width: 32vw;
+    }
+  }
+  @media (max-width: 632px) {
+    h3 {
+      font-size: 20px;
+      line-height: 26px;
+      margin: 0 0 30px 0;
+    }
+    img {
+      height: 40vw;
+      width: 55vw;
+    }
+  }
 `;
 
 export const Btn = styled.div`

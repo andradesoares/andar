@@ -10,8 +10,6 @@ const Depo = () => {
         <DepoBox />
         <DepoBox />
         <DepoBox />
-      </styles.Box>
-      <styles.Box>
         <DepoBox />
         <DepoBox />
         <DepoBox />

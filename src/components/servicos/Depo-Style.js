@@ -15,10 +15,10 @@ export const Container = styled.section`
 `;
 
 export const Box = styled.div`
-  padding: 5vw;
   padding-top: 0;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 `;
 
 export const Btn = styled.div`

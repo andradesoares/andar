@@ -7,27 +7,10 @@ export const Container = styled.div`
   justify-content: space-between;
   align-items: center;
   color: white;
-`;
-
-export const Navigation = styled.nav`
-  width: 35%;
-`;
-
-export const Links = styled.ul`
-  padding: 0;
-  display: flex;
-  justify-content: space-around;
-  div {
-    width: 9%;
-    display: flex;
-    justify-content: space-between;
+  @media (max-width: 632px) {
+    p {
+      font-size: 14px;
+      line-height: 16px;
+    }
   }
-`;
-
-export const Link = styled.li`
-  a {
-    text-decoration: none;
-    color: white;
-  }
-  display: flex;
 `;

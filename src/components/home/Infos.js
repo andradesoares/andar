@@ -11,10 +11,7 @@ const Infos = () => {
       <styles.Box>
         <Image src={foto} alt="Foto" height={300} width={250} />
         <div>
-          <h3>
-            Oi, sou a Marina, <br /> uma assistente virtual
-            <br /> experiente
-          </h3>
+          <h3>Oi, sou a Marina, uma assistente virtual experiente</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
             metus est, semper sed turpis ut, fringilla tincidunt risus. In
